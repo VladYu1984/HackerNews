@@ -4,9 +4,9 @@
 
 За основу взято тестовое задание [Avito](https://github.com/avito-tech/sx-frontend-trainee-assignment).
 
-Стек: `React`, `React Router v6`, `JavaScript`, `Axios`, `Lodash`, `Bootstrap`, `SCSS/SASS`, `Jest`, `Enzyme`, `Redux`, `Babel`, `ESLint`, `Flow`, `html-react-parser`.`
-
 Также было использовано [Hacker News API](https://github.com/HackerNews/API).
+
+Стек: React, React Router v6, JavaScript, Axios, Lodash, Bootstrap, SCSS/SASS, Jest, Enzyme, Redux, Babel, ESLint, Flow, html-react-parser.
 
 #### Реализация приложения:
 - Главная страница:
