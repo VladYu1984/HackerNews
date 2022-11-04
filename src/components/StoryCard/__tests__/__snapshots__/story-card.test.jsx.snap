@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StoryCard should render correct StoryCard 1`] = `
+<BrowserRouter>
+  <Router
+    location={
+      Object {
+        "hash": "",
+        "key": "default",
+        "pathname": "/",
+        "search": "",
+        "state": null,
+      }
+    }
+    navigationType="POP"
+    navigator={
+      Object {
+        "action": "POP",
+        "createHref": [Function],
+        "go": [Function],
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "default",
+          "pathname": "/",
+          "search": "",
+          "state": null,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <StoryCard
+      asLink={true}
+      fieldsToShow={
+        Array [
+          "id",
+          "title",
+          "by",
+          "time",
+          "score",
+        ]
+      }
+      story={
+        Object {
+          "by": "someUser",
+          "id": 123,
+          "score": 2,
+          "time": "1662661417",
+          "title": "someTitle",
+        }
+      }
+      to="/hacker-news/123"
+    >
+      <Card
+        as={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "render": [Function],
+          }
+        }
+        body={false}
+        className="story mt-10 mb-20"
+        to="/hacker-news/123"
+      >
+        <Link
+          className="story mt-10 mb-20 card"
+          to="/hacker-news/123"
+        >
+          <a
+            className="story mt-10 mb-20 card"
+            href="/hacker-news/123"
+            onClick={[Function]}
+          >
+            <CardBody>
+              <div
+                className="card-body"
+              >
+                <CardTitle
+                  className="color-orange"
+                >
+                  <ForwardRef
+                    className="color-orange card-title"
+                  >
+                    <div
+                      className="color-orange card-title h5"
+                    >
+                      someTitle
+                    </div>
+                  </ForwardRef>
+                </CardTitle>
+                <CardSubtitle
+                  className="mb-2 color-grey"
+                >
+                  <ForwardRef
+                    className="mb-2 color-grey card-subtitle"
+                  >
+                    <div
+                      className="mb-2 color-grey card-subtitle h6"
+                    >
+                      2
+                       points | 
+                      someUser
+                       | 
+                      08.09.2022
+                    </div>
+                  </ForwardRef>
+                </CardSubtitle>
+              </div>
+            </CardBody>
+          </a>
+        </Link>
+      </Card>
+    </StoryCard>
+  </Router>
+</BrowserRouter>
+`;
+
+exports[`StoryCard should render correct StoryCard with all props 1`] = `
+<StoryCard
+  story={
+    Object {
+      "by": "someUser",
+      "descendants": 0,
+      "id": 123,
+      "kids": Array [],
+      "score": 2,
+      "text": "someText",
+      "time": "1662661417",
+      "title": "someTitle",
+      "url": "https://reactjs.org/",
+    }
+  }
+>
+  <Card
+    body={false}
+    className="story mt-10 mb-20"
+  >
+    <div
+      className="story mt-10 mb-20 card"
+    >
+      <CardBody>
+        <div
+          className="card-body"
+        >
+          <CardTitle
+            className="color-orange"
+          >
+            <ForwardRef
+              className="color-orange card-title"
+            >
+              <div
+                className="color-orange card-title h5"
+              >
+                someTitle
+              </div>
+            </ForwardRef>
+          </CardTitle>
+          <CardSubtitle
+            className="mb-2 color-grey"
+          >
+            <ForwardRef
+              className="mb-2 color-grey card-subtitle"
+            >
+              <div
+                className="mb-2 color-grey card-subtitle h6"
+              >
+                2
+                 points | 
+                someUser
+                 | 
+                08.09.2022
+              </div>
+            </ForwardRef>
+          </CardSubtitle>
+          <CardSubtitle
+            className="mb-2 color-grey"
+          >
+            <ForwardRef
+              className="mb-2 color-grey card-subtitle"
+            >
+              <div
+                className="mb-2 color-grey card-subtitle h6"
+              >
+                <a
+                  href="https://reactjs.org/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Source
+                </a>
+              </div>
+            </ForwardRef>
+          </CardSubtitle>
+          <CardSubtitle
+            className="mb-2 color-grey"
+          >
+            <ForwardRef
+              className="mb-2 color-grey card-subtitle"
+            >
+              <div
+                className="mb-2 color-grey card-subtitle h6"
+              >
+                Comment count: 
+                0
+              </div>
+            </ForwardRef>
+          </CardSubtitle>
+          <CardText
+            as="span"
+            className="bold color-dark-grey"
+          >
+            <span
+              className="bold color-dark-grey card-text"
+            >
+              someText
+            </span>
+          </CardText>
+        </div>
+      </CardBody>
+    </div>
+  </Card>
+</StoryCard>
+`;

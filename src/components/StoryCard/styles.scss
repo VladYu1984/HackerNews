@@ -1,0 +1,39 @@
+@import "~bootstrap/scss/bootstrap";
+@import "../../style/variables";
+
+.story {
+  width: 100%;
+
+  .spinner {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-subtitle {
+    font-size: 15px;
+  }
+
+  .card-text {
+    margin-top: 28px;
+    font-size: 18px;
+
+    a {
+      word-break: break-all;
+    }
+  }
+
+  .error {
+    display: flex;
+    justify-content: center;
+  }
+
+  @media screen and (max-width: $medium) {
+    .card-title {
+      font-size: 1.1rem;
+    }
+
+    .card-subtitle {
+      font-size: 0.85rem;
+    }
+  }
+}

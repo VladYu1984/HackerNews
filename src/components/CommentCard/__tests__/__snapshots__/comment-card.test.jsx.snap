@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommentCard should render correct card 1`] = `
+<CommentCard
+  comment={
+    Object {
+      "by": "coolUser",
+      "id": 123,
+      "kids": Array [
+        124,
+      ],
+      "showChildComment": true,
+      "text": "someText",
+      "time": 1666689031,
+    }
+  }
+  showAnswers={[MockFunction]}
+>
+  <Card
+    body={false}
+    border="primary"
+    className="comment parent"
+  >
+    <div
+      className="comment parent card border-primary"
+    >
+      <CardBody>
+        <div
+          className="card-body"
+        >
+          <CardSubtitle
+            className="mb-2 color-grey"
+          >
+            <ForwardRef
+              className="mb-2 color-grey card-subtitle"
+            >
+              <div
+                className="mb-2 color-grey card-subtitle h6"
+              >
+                <span
+                  className="bold"
+                >
+                  coolUser
+                </span>
+                 | 
+                25.10.2022
+              </div>
+            </ForwardRef>
+          </CardSubtitle>
+          <CardText
+            as="span"
+            className="bold color-dark-grey"
+          >
+            <span
+              className="bold color-dark-grey card-text"
+            >
+              someText
+            </span>
+          </CardText>
+          <Button
+            active={false}
+            className="mt-20"
+            disabled={false}
+            onClick={[Function]}
+            variant="light"
+          >
+            <button
+              className="mt-20 btn btn-light"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+            >
+              Hide answers
+            </button>
+          </Button>
+          <CommentCard
+            comment={
+              Object {
+                "by": "coolUser124",
+                "id": 124,
+                "parent": 123,
+                "text": "someText124",
+                "time": 1666689031,
+              }
+            }
+            isParent={false}
+          >
+            <Card
+              body={false}
+              border={false}
+              className="comment child"
+            >
+              <div
+                className="comment child card"
+              >
+                <CardBody>
+                  <div
+                    className="card-body"
+                  >
+                    <CardSubtitle
+                      className="mb-2 color-grey"
+                    >
+                      <ForwardRef
+                        className="mb-2 color-grey card-subtitle"
+                      >
+                        <div
+                          className="mb-2 color-grey card-subtitle h6"
+                        >
+                          <span
+                            className="bold"
+                          >
+                            coolUser124
+                          </span>
+                           | 
+                          25.10.2022
+                        </div>
+                      </ForwardRef>
+                    </CardSubtitle>
+                    <CardText
+                      as="span"
+                      className="bold color-dark-grey"
+                    >
+                      <span
+                        className="bold color-dark-grey card-text"
+                      >
+                        someText124
+                      </span>
+                    </CardText>
+                  </div>
+                </CardBody>
+              </div>
+            </Card>
+          </CommentCard>
+        </div>
+      </CardBody>
+    </div>
+  </Card>
+</CommentCard>
+`;

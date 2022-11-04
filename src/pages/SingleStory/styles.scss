@@ -1,0 +1,42 @@
+@import "~bootstrap/scss/bootstrap";
+@import "../../style/variables";
+
+.single-story {
+  display: flex;
+  justify-content: center;
+
+  .content {
+    width: 50rem;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    .spinner {
+      display: flex;
+      justify-content: center;
+    }
+
+    .story {
+      border-color: $blue;
+    }
+
+    .comments {
+      margin-bottom: 50px;
+
+      .comment-wrapper {
+
+        .parent {
+
+          .btn {
+            width: 140px;
+            height: 40px;
+            border-color: $grey;
+          }
+        }
+
+        .child {
+          border: none;
+        }
+      }
+    }
+  }
+}
